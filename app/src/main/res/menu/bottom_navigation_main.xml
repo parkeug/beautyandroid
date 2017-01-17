@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_beautyhome"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:title="@string/text_beautyhome"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_mybeauty"
+        android:enabled="true"
+        android:icon="@drawable/ic_access_time_white_24dp"
+        android:title="@string/text_mybeauty"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_notifications"
+        android:enabled="true"
+        android:icon="@drawable/ic_audiotrack_white_24dp"
+        android:title="@string/text_notifications"
+        app:showAsAction="withText" />
+    <!--
+    <item
+        android:id="@+id/action_myappointments"
+        android:enabled="true"
+        android:icon="@drawable/ic_audiotrack_white_24dp"
+        android:title="@string/text_myappointments"
+        app:showAsAction="withText" />
+        -->
+</menu>
