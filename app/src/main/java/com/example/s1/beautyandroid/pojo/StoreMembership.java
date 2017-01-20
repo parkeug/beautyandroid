@@ -21,6 +21,10 @@ public class StoreMembership {
     @Expose
     private String logo;
 
+    @SerializedName("cardimage")
+    @Expose
+    private String cardimage;
+
     @SerializedName("lat")
     @Expose
     private String lat;
@@ -105,6 +109,20 @@ public class StoreMembership {
      */
     public void setLogo(String logo) {
         this.logo = logo;
+    }
+
+    /**
+     * @return The cardimage
+     */
+    public String getCardimage() {
+        return cardimage;
+    }
+
+    /**
+     * @param cardimage The cardimage
+     */
+    public void setCardimage(String cardimage) {
+        this.cardimage = cardimage;
     }
 
     /**

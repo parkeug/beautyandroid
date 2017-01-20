@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 });
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        // client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
     }
 
@@ -117,8 +117,8 @@ public class MainActivity extends AppCompatActivity {
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.connect();
-        AppIndex.AppIndexApi.start(client, getIndexApiAction());
+        // client.connect();
+        // AppIndex.AppIndexApi.start(client, getIndexApiAction());
     }
 
     @Override
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        AppIndex.AppIndexApi.end(client, getIndexApiAction());
-        client.disconnect();
+        // AppIndex.AppIndexApi.end(client, getIndexApiAction());
+        // client.disconnect();
     }
 }
