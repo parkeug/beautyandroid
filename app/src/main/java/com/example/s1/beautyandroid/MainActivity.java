@@ -14,10 +14,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.app.ProgressDialog;
 
+/*
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
+*/
 
 import com.example.s1.beautyandroid.R;
 import com.example.s1.beautyandroid.adapter.MediaAdapter;
@@ -47,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
-    private GoogleApiClient client;
+    // private GoogleApiClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
+    /*
     public Action getIndexApiAction() {
         Thing object = new Thing.Builder()
                 .setName("Main Page") // TODO: Define a title for the content shown.
@@ -110,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 .setActionStatus(Action.STATUS_TYPE_COMPLETED)
                 .build();
     }
+    */
 
     @Override
     public void onStart() {

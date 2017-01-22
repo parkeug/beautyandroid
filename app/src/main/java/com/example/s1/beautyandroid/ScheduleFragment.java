@@ -58,7 +58,6 @@ public class ScheduleFragment extends Fragment {
 
         Bundle bundle = getArguments();
         long storemembershipid = bundle.getLong("storemembershipid") ;
-
         Toast.makeText(getActivity().getApplicationContext(), "Your message " + storemembershipid, Toast.LENGTH_LONG).show();
 
 

@@ -11,4 +11,22 @@
         android:layout_height="wrap_content"
         android:id="@+id/schedulebutton" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/storetitle_textview"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/storeaddress_textview"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/storeaddress2_textview"
+        />
+
 </FrameLayout>
