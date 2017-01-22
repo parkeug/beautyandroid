@@ -58,6 +58,7 @@ public class MyApplication extends Application {
                     }
                     Log.d("OneSignalExample", "Full additionalData:\n" + result.notification.payload.additionalData.toString());
                 }
+
             } catch (Throwable t) {
                 t.printStackTrace();
             }

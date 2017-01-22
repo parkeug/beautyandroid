@@ -11,6 +11,7 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Query;
 
 public interface ApiService {
 
@@ -25,13 +26,13 @@ public interface ApiService {
     Call<StoreMembershipList> getStoreMembershipsJSON();
 
     @GET("/Content/storemembership.json")
-    Call<StoreMembership> getStoreMembershipJSON(long id);
+    Call<StoreMembership> getStoreMembershipJSON(@Query("id") long id);
 
     @GET("/Content/schedule.json")
-    Call<ScheduleList> getSchedulesJSON(long id);
+    Call<ScheduleList> getSchedulesJSON(@Query("id") long id);
 
     @GET("/Content/storedetails.json")
-    Call<StoreDetails> getStoreDetailsJSON(long id);
+    Call<StoreDetails> getStoreDetailsJSON(@Query("id") long id);
 
     @POST("/Content/createschedule.json")
     Call<Schedule> createSchedule(@Body Schedule schedule);
